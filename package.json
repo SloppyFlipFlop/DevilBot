@@ -1,0 +1,27 @@
+{
+  "name": "devilbot",
+  "version": "1.0.0",
+  "description": "A discord bot made for ASU discord servers",
+  "main": "bot.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SloppyFlipFlop/DevilBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "discord-bot",
+    "chat",
+    "asu"
+  ],
+  "author": "Fernando David Nevarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SloppyFlipFlop/DevilBot/issues"
+  },
+  "homepage": "https://github.com/SloppyFlipFlop/DevilBot#readme"
+}
