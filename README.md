@@ -1,1 +1,1 @@
-# CodeDevils_Discord_Auth_Bot
+# An ASU Discord DevilBot
