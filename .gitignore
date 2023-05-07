@@ -1,4 +1,10 @@
-
+# General
 node_modules/
+dist/
+*.log
 
+
+# Protecting Secrets
 .env
+.env.*local
+.env.*production

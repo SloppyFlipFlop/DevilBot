@@ -1,10 +1,10 @@
 {
   "name": "devilbot",
-  "version": "1.0.0",
-  "description": "A discord bot made for ASU discord servers",
-  "main": "bot.ts",
+  "version": "0.0.1",
+  "description": "A discord bot made for the ASU Codedevils discord server.",
+  "main": "./src/main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -12,27 +12,26 @@
   },
   "keywords": [
     "discord",
-    "bot",
-    "discord.js",
     "discord-bot",
-    "chat",
-    "asu"
+    "discord.js",
+    "ASU"
   ],
-  "author": "Fernando David Nevarez",
+  "author": "Codedevils ASU Association",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SloppyFlipFlop/DevilBot/issues"
   },
   "homepage": "https://github.com/SloppyFlipFlop/DevilBot#readme",
   "dependencies": {
-    "@types/node": "^20.1.0",
-    "discord.js": "^14.11.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "discord.js": "^14.11.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.17"
+    "@types/node": "^20.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
