@@ -1,3 +1,5 @@
-function test() {
+const f = () => {
   console.log('test')
 }
+
+f()
