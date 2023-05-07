@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/SloppyFlipFlop/DevilBot/issues"
   },
-  "homepage": "https://github.com/SloppyFlipFlop/DevilBot#readme"
+  "homepage": "https://github.com/SloppyFlipFlop/DevilBot#readme",
+  "dependencies": {
+    "@types/node": "^20.1.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
 }
